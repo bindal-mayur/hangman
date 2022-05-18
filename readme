@@ -1,0 +1,11 @@
+Prerequisites:
+This repo requires use of python 3 and above.
+Additionally requires an external python module called
+pyyaml
+
+Installing dependencies:
+pip install pyyaml
+
+Running the game:
+The game could be run from within the repo using:
+python hangman.py
