@@ -115,9 +115,6 @@ class Hangman:
 
 
 if __name__ == '__main__':
-    # test_words is a simplified version of word list.
-    # It could also be read from a file containing all
-    # possible words in an english dictionary.'''
     while Hangman.play_hangman():
         comp_generated_word = get_random_word()
         hangman = Hangman(word=comp_generated_word)
